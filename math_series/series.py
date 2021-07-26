@@ -28,4 +28,4 @@ def sum_series(n,n2=0,n3=1):
         return n3
     else:
         return sum_series(n-1,n2,n3)+sum_series(n-2,n2,n3)
-    
+print (sum_series(3))    
